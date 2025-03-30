@@ -10,7 +10,8 @@ import NavBar from './Componenets/NavBar';
 import Home from './Componenets/Home';
 import Notes from './Componenets/Notes';
 import ViewNote from './Componenets/ViewNote';
-import Share from './Componenets/share';
+import Share from '../src/Componenets/share';
+
 
 const router = createBrowserRouter(
   [
