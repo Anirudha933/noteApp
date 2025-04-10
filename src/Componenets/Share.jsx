@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, useParams } from 'react-router-dom'
 import toast from 'react-hot-toast';
-const share = () => {
+const Share = () => {
     //notes-start
     const data = useSelector((state) => state.note.notes
     )
@@ -159,4 +159,4 @@ const share = () => {
     )
 }
 
-export default share
+export default Share
