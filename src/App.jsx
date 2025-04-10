@@ -9,7 +9,8 @@ import NavBar from './Componenets/NavBar';
 import Home from './Componenets/Home';
 import Notes from './Componenets/Notes';
 import ViewNote from './Componenets/ViewNote';
-import Share from './Componenets/share';
+import Myshare from './Componenets/Myshare';
+
 
 
 const router = createBrowserRouter(
@@ -43,7 +44,7 @@ const router = createBrowserRouter(
         element:
         <div>
         {/* <Notes/> */}
-        <Share/>
+        <Myshare/>
       </div>
     }
   ]
