@@ -1,7 +1,6 @@
 
 import './App.css'
 import * as React from "react";
-import * as ReactDOM from "react-dom";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -10,7 +9,7 @@ import NavBar from './Componenets/NavBar';
 import Home from './Componenets/Home';
 import Notes from './Componenets/Notes';
 import ViewNote from './Componenets/ViewNote';
-import Share from '../src/Componenets/share';
+import Share from './Componenets/share';
 
 
 const router = createBrowserRouter(
